@@ -112,10 +112,17 @@ iwd wpa_supplicant wireless_tools openssh
 ```bash
 xorg-server xorg-xinit i3-wm lightdm lightdm-gtk-greeter mesa-utils glxinfo | grep "OpenGL"
 ```
+### Graphical Environment / OpenGL check
+```bash
+mesa-utils
+```
+```bash
+glxinfo | grep "OpenGL
+```
 
 ### Graphical Environment / For Intel add
 ```bash
-mesa lib32-mesa vulkan-intel
+mesa lib32-mesa vulkan-intel glu freeglut glew
 ```
 
 ### Utilities
