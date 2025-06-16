@@ -1,4 +1,4 @@
-# Arch Linux + i3WM on ASUS VivoBook
+# Arch Linux + i3WM on ASUS VivoBook 2026
 **System Deployment Report**  
 **Date**: June 15, 2026  
 **Senior System Administrator**: [Sasha Zimin]  
