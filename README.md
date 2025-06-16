@@ -110,12 +110,17 @@ iwd wpa_supplicant wireless_tools openssh
 
 ### Graphical Environment
 ```bash
-xorg-server xorg-xinit i3-wm lightdm lightdm-gtk-greeter
+xorg-server xorg-xinit i3-wm lightdm lightdm-gtk-greeter mesa-utils glxinfo | grep "OpenGL"
+```
+
+### Graphical Environment / For Intel add
+```bash
+mesa lib32-mesa vulkan-intel
 ```
 
 ### Utilities
 ```bash
-htop ranger duf smartmontools xdg-utils
+htop ranger duf smartmontools xdg-utils brightnessctl
 ```
 
 ### Editors & File Management
