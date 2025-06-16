@@ -149,6 +149,25 @@ df -hT
 lsblk -f
 ```
 
+## Problem about volume (16:25)
+
+### Check files
+```bash
+ls /usr/lib/firmware/intel/sof/sof-adl-n.ri
+ls /usr/lib/firmware/intel/sof-tplg/sof-hda-generic-2ch.tplg
+```
++ If files dont find, pls instal next package
+  
+```bash
+sudo pacman -S sof-firmware
+```
+
+###Udate initramfs to include the new firmware files
+
+```bash
+sudo mkinitcpio -P
+```
+
 ---
 
 ## System Configuration Summary
